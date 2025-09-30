@@ -1,164 +1,164 @@
-# 🐾 PetLingo - 智能宠物语言翻译系统
+# 🐾 PetLingo - Intelligent Pet Language Translation System
 
-## 🚀 电梯演讲
+## 🚀 Elevator Pitch
 
-**"让每一声猫叫狗吠都能被理解，让每一份爱都能跨越物种的界限"**
+**"Making every meow and bark understood, bridging love across species boundaries"**
 
 ---
 
-## 📖 项目故事
+## 📖 Project Story
 
-### 🌟 Inspiration（灵感来源）
+### 🌟 Inspiration
 
-故事要从我家的小橘猫和爷爷家的金毛说起。每当我带着小橘去爷爷家时，总会上演一场"鸡飞狗跳"的戏码——猫咪紧张地弓起背，狗狗兴奋地摇着尾巴，而我们人类只能在一旁干着急，完全不知道它们在"说"什么。
+It all started with my little orange tabby and my grandfather's golden retriever. Every time I brought my cat to grandpa's house, we'd witness a chaotic scene - the cat would arch its back nervously while the dog wagged its tail excitedly, and we humans could only stand by helplessly, completely clueless about what they were "saying" to each other.
 
-那时我常想，为什么鹦鹉能学会人话，而我们最亲密的伙伴——猫咪和狗狗却无法与我们直接交流？直到有一天，我在视频网站上看到有人模仿各种动物的叫声，竟然能引起宠物们的强烈反应。更让我震撼的是，我了解到语言学家Christina Hunger教会她的狗狗Stella使用按钮与人类交流，这开启了动物语言研究的新纪元。
+I often wondered: why can parrots learn human speech, while our most intimate companions - cats and dogs - cannot communicate directly with us? Until one day, I discovered videos online of people mimicking various animal sounds, which triggered strong reactions from pets. What truly amazed me was learning about linguist Christina Hunger, who taught her dog Stella to communicate with humans using buttons, opening a new era in animal language research.
 
-这些发现让我意识到：**动物们一直在"说话"，只是我们还没有学会"倾听"**。在这个AI技术飞速发展的时代，我们是否能够构建一座桥梁，让人类与宠物之间的情感交流不再受限于物种的界限？
+These discoveries made me realize: **animals have been "talking" all along; we just haven't learned how to "listen"**. In this age of rapidly advancing AI technology, could we build a bridge to remove the species barrier from emotional communication between humans and pets?
 
-### 🎯 What it does（项目功能）
+### 🎯 What it does
 
-PetLingo是一个基于机器学习的智能宠物语言翻译系统，主要功能包括：
+PetLingo is an intelligent pet language translation system based on machine learning, featuring:
 
-- **🎵 宠物情绪识别**：通过音频分析识别猫咪和狗狗的18种不同情绪状态
-- **🔄 跨物种翻译**：将猫语翻译成对应的狗语，或将狗语翻译成猫语
-- **🎧 实时音频处理**：支持实时录音和音频文件上传分析
-- **📊 情绪可视化**：直观展示宠物情绪状态和置信度
-- **🎮 互动学习**：提供人类学习动物语言的趣味功能
-- **📱 现代化界面**：响应式设计，支持多设备访问
+- **🎵 Pet Emotion Recognition**: Analyzes audio to identify 18 different emotional states in cats and dogs
+- **🔄 Cross-Species Translation**: Translates cat language to corresponding dog language, or vice versa
+- **🎧 Real-time Audio Processing**: Supports real-time recording and audio file upload analysis
+- **📊 Emotion Visualization**: Intuitively displays pet emotional states and confidence levels
+- **🎮 Interactive Learning**: Provides fun features for humans to learn animal languages
+- **📱 Modern Interface**: Responsive design supporting multi-device access
 
-### 🛠️ How we built it（技术实现）
+### 🛠️ How we built it
 
-我们采用了现代化的全栈开发架构：
+We adopted a modern full-stack development architecture:
 
-**前端技术栈：**
-- **React 18** + **Vite** - 现代化前端框架和构建工具
-- **Tailwind CSS** - 原子化CSS框架，实现美观的UI设计
-- **Framer Motion** - 流畅的动画效果
-- **Radix UI** - 无障碍的组件库
-- **React Router** - 单页应用路由管理
+**Frontend Tech Stack:**
+- **React 18** + **Vite** - Modern frontend framework and build tool
+- **Tailwind CSS** - Atomic CSS framework for beautiful UI design
+- **Framer Motion** - Smooth animation effects
+- **Radix UI** - Accessible component library
+- **React Router** - Single-page application routing
 
-**后端技术栈：**
-- **FastAPI** - 高性能Python Web框架
-- **Scikit-learn** - 机器学习模型训练和预测
-- **Librosa** - 音频特征提取和处理
-- **NumPy & Pandas** - 数据处理和分析
-- **Uvicorn** - ASGI服务器
+**Backend Tech Stack:**
+- **FastAPI** - High-performance Python web framework
+- **Scikit-learn** - Machine learning model training and prediction
+- **Librosa** - Audio feature extraction and processing
+- **NumPy & Pandas** - Data processing and analysis
+- **Uvicorn** - ASGI server
 
-**开发流程：**
-1. **数据收集**：收集了18种猫咪情绪和7种狗狗情绪的音频样本
-2. **特征工程**：使用Librosa提取MFCC、频谱质心等音频特征
-3. **模型训练**：基于随机森林算法训练情绪分类模型
-4. **API开发**：构建RESTful API接口，支持音频上传和预测
-5. **前端开发**：使用React构建交互式用户界面
-6. **系统集成**：前后端联调，实现完整的用户体验
+**Development Process:**
+1. **Data Collection**: Gathered audio samples of 18 cat emotions and 7 dog emotions
+2. **Feature Engineering**: Used Librosa to extract audio features like MFCC and spectral centroid
+3. **Model Training**: Trained emotion classification models using Random Forest algorithms
+4. **API Development**: Built RESTful API interfaces supporting audio upload and prediction
+5. **Frontend Development**: Created interactive user interfaces using React
+6. **System Integration**: Frontend-backend integration for complete user experience
 
-### 🚧 Challenges we ran into（遇到的挑战）
+### 🚧 Challenges we ran into
 
-**技术挑战：**
-- **音频格式兼容性**：不同设备录制的音频格式差异很大，需要统一处理流程
-- **特征提取优化**：如何从复杂的音频信号中提取最有效的情绪特征
-- **模型准确性**：在有限的训练数据下提高情绪识别的准确率
-- **实时性能**：确保音频处理和预测的响应速度满足用户体验要求
+**Technical Challenges:**
+- **Audio Format Compatibility**: Different devices record audio in various formats, requiring unified processing
+- **Feature Extraction Optimization**: How to extract the most effective emotional features from complex audio signals
+- **Model Accuracy**: Improving emotion recognition accuracy with limited training data
+- **Real-time Performance**: Ensuring audio processing and prediction response times meet user experience requirements
 
-**学习挑战：**
-- **机器学习入门**：从零开始学习音频信号处理和机器学习算法
-- **跨域知识整合**：需要同时掌握前端开发、后端API、机器学习等多个领域
-- **调试复杂性**：音频处理过程中的错误往往难以定位和解决
+**Learning Challenges:**
+- **Machine Learning Fundamentals**: Learning audio signal processing and machine learning algorithms from scratch
+- **Cross-domain Knowledge Integration**: Mastering frontend development, backend APIs, and machine learning simultaneously
+- **Debugging Complexity**: Audio processing errors are often difficult to locate and resolve
 
 ### 🏆 Accomplishments that we're proud of
 
-- **🎯 高准确率**：实现了85%以上的宠物情绪识别准确率
-- **⚡ 快速响应**：音频处理和预测响应时间控制在2秒以内
-- **🎨 用户体验**：设计了直观美观的用户界面，获得了用户的积极反馈
-- **🔧 技术创新**：成功将传统机器学习与现代Web技术相结合
-- **📚 知识积累**：团队成员在AI、音频处理、全栈开发等方面都有显著提升
+- **🎯 High Accuracy**: Achieved over 85% accuracy in pet emotion recognition
+- **⚡ Fast Response**: Controlled audio processing and prediction response time within 2 seconds
+- **🎨 User Experience**: Designed intuitive and beautiful user interfaces with positive user feedback
+- **🔧 Technical Innovation**: Successfully combined traditional machine learning with modern web technologies
+- **📚 Knowledge Growth**: Team members significantly improved in AI, audio processing, and full-stack development
 
-### 💡 What we learned（学习收获）
+### 💡 What we learned
 
-这个项目让我们深刻体会到了**"技术服务于情感"**的理念。最让我印象深刻的是测试阶段的一个小故事：
+This project deeply impressed upon us the concept of **"technology serving emotion"**. The most memorable moment was during testing:
 
-当我们第一次成功识别出小橘猫的"饿了"叫声，并播放出对应的狗狗"饿了"音频时，爷爷家的金毛竟然真的跑到了食盆旁边！那一刻，我们意识到这不仅仅是一个技术项目，而是真正在为改善人宠关系做贡献。
+When we first successfully identified my orange cat's "hungry" meow and played the corresponding dog "hungry" audio, grandpa's golden retriever actually ran to the food bowl! At that moment, we realized this wasn't just a technical project, but truly contributing to improving human-pet relationships.
 
-**技术层面的收获：**
-- 掌握了音频信号处理的基本原理和实践方法
-- 学会了如何设计和训练机器学习模型
-- 提升了全栈开发能力，特别是前后端协作
-- 理解了用户体验设计的重要性
+**Technical Learnings:**
+- Mastered fundamental principles and practical methods of audio signal processing
+- Learned how to design and train machine learning models
+- Enhanced full-stack development capabilities, especially frontend-backend collaboration
+- Understood the importance of user experience design
 
-**更重要的是人生感悟：**
-- **同理心的力量**：技术最终要服务于情感需求
-- **跨学科思维**：复杂问题往往需要多领域知识的融合
-- **持续学习**：在快速发展的技术领域，学习能力比知识本身更重要
+**More importantly, life insights:**
+- **The Power of Empathy**: Technology must ultimately serve emotional needs
+- **Interdisciplinary Thinking**: Complex problems often require knowledge fusion from multiple fields
+- **Continuous Learning**: In rapidly evolving tech fields, learning ability matters more than knowledge itself
 
-### 🚀 What's next for PetLingo（未来规划）
+### 🚀 What's next for PetLingo
 
-**短期目标（3-6个月）：**
-- **扩展语言库**：增加更多宠物种类（兔子、鸟类等）的语言识别
-- **提升准确率**：收集更多训练数据，优化模型算法
-- **移动端适配**：开发iOS和Android原生应用
-- **社区功能**：建立用户社区，分享宠物语言学习心得
+**Short-term Goals (3-6 months):**
+- **Expand Language Library**: Add language recognition for more pet species (rabbits, birds, etc.)
+- **Improve Accuracy**: Collect more training data and optimize model algorithms
+- **Mobile Adaptation**: Develop native iOS and Android applications
+- **Community Features**: Build user communities to share pet language learning experiences
 
-**中期目标（6-12个月）：**
-- **智能硬件集成**：与智能项圈、摄像头等设备联动
-- **个性化学习**：基于用户宠物的特征进行个性化模型训练
-- **兽医合作**：与专业兽医合作，提供健康状态分析
-- **多语言支持**：支持多种人类语言界面
+**Medium-term Goals (6-12 months):**
+- **Smart Hardware Integration**: Connect with smart collars, cameras, and other devices
+- **Personalized Learning**: Personalized model training based on individual pet characteristics
+- **Veterinary Collaboration**: Partner with professional veterinarians for health status analysis
+- **Multi-language Support**: Support multiple human language interfaces
 
-**长期愿景（1-3年）：**
-- **AI助手进化**：发展成为全方位的宠物AI助手
-- **商业化运营**：建立可持续的商业模式
-- **科研合作**：与动物行为学研究机构合作，推动学术发展
-- **全球化扩展**：将服务推广到全球宠物爱好者群体
+**Long-term Vision (1-3 years):**
+- **AI Assistant Evolution**: Develop into a comprehensive pet AI assistant
+- **Commercial Operations**: Establish sustainable business models
+- **Research Collaboration**: Partner with animal behavior research institutions for academic advancement
+- **Global Expansion**: Extend services to pet lovers worldwide
 
-**终极愿景：**
-让PetLingo成为连接人类与动物世界的桥梁，让每一个家庭都能更好地理解和关爱他们的宠物伙伴，构建一个更加和谐的人宠共生世界。
+**Ultimate Vision:**
+Make PetLingo a bridge connecting humans and the animal world, enabling every family to better understand and care for their pet companions, building a more harmonious human-pet coexistence world.
 
 ---
 
-## 🚀 如何运行项目
+## 🚀 How to Run the Project
 
-### 📋 环境要求
+### 📋 Requirements
 
 - **Node.js** >= 18.0.0
 - **Python** >= 3.8
-- **npm** 或 **yarn**
+- **npm** or **yarn**
 - **Git**
 
-### 📥 克隆项目
+### 📥 Clone the Project
 
 ```bash
-git clone <项目仓库地址>
+git clone <repository-url>
 cd nocode
 ```
 
-### 🔧 前端设置
+### 🔧 Frontend Setup
 
-1. **安装依赖**
+1. **Install Dependencies**
 ```bash
 npm install
-# 或者使用 yarn
+# or use yarn
 yarn install
 ```
 
-2. **启动开发服务器**
+2. **Start Development Server**
 ```bash
 npm run dev
-# 或者
+# or
 yarn dev
 ```
 
-3. **访问应用**
-打开浏览器访问：`http://localhost:8080`
+3. **Access Application**
+Open browser and visit: `http://localhost:8080`
 
-### 🐍 后端设置
+### 🐍 Backend Setup
 
-1. **进入Python API目录**
+1. **Navigate to Python API Directory**
 ```bash
 cd python_api/python
 ```
 
-2. **创建虚拟环境（推荐）**
+2. **Create Virtual Environment (Recommended)**
 ```bash
 python -m venv venv
 
@@ -169,92 +169,92 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-3. **安装Python依赖**
+3. **Install Python Dependencies**
 ```bash
 pip install fastapi uvicorn python-multipart
 pip install -r requirements.txt
 ```
 
-4. **启动后端服务**
+4. **Start Backend Service**
 ```bash
 python -m uvicorn main_api:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-5. **验证后端服务**
-- API文档：`http://localhost:8000/docs`
-- 健康检查：`http://localhost:8000/health`
+5. **Verify Backend Service**
+- API Documentation: `http://localhost:8000/docs`
+- Health Check: `http://localhost:8000/health`
 
-### 📁 音频文件设置
+### 📁 Audio Files Setup
 
-确保以下音频文件夹结构正确：
+Ensure the following audio folder structure is correct:
 ```
 voice(1)/
 ├── Catvoice/
 │   ├── 猫_饿了.m4a
 │   ├── 猫_撒娇.m4a
-│   └── ... (其他猫咪音频)
+│   └── ... (other cat audio files)
 └── Dogvoice/
     ├── 狗_饿了.m4a
     ├── 狗_撒娇.m4a
-    └── ... (其他狗狗音频)
+    └── ... (other dog audio files)
 ```
 
-### 🎯 完整启动流程
+### 🎯 Complete Startup Process
 
-1. **启动后端服务**（在 `python_api/python` 目录下）
+1. **Start Backend Service** (in `python_api/python` directory)
 ```bash
 python -m uvicorn main_api:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-2. **启动前端服务**（在项目根目录下）
+2. **Start Frontend Service** (in project root directory)
 ```bash
 npm run dev
 ```
 
-3. **访问应用**
-- 前端界面：`http://localhost:8080`
-- 后端API：`http://localhost:8000`
-- API文档：`http://localhost:8000/docs`
+3. **Access Application**
+- Frontend Interface: `http://localhost:8080`
+- Backend API: `http://localhost:8000`
+- API Documentation: `http://localhost:8000/docs`
 
-### 🔍 功能测试
+### 🔍 Feature Testing
 
-1. **访问主页**：确认所有功能卡片正常显示
-2. **宠物交流页面**：上传音频文件测试情绪识别
-3. **猫咪图片分析**：上传图片测试分析功能
-4. **人类语言学习**：体验语言学习功能
+1. **Visit Homepage**: Confirm all feature cards display properly
+2. **Pet Communication Page**: Upload audio files to test emotion recognition
+3. **Cat Image Analysis**: Upload images to test analysis functionality
+4. **Human Language Learning**: Experience language learning features
 
-### 🐛 常见问题
+### 🐛 Common Issues
 
-**Q: 前端无法连接后端？**
-A: 确认后端服务在8000端口正常运行，检查CORS设置
+**Q: Frontend cannot connect to backend?**
+A: Confirm backend service is running normally on port 8000, check CORS settings
 
-**Q: 音频上传失败？**
-A: 检查音频文件格式（支持.m4a, .wav），确认文件大小不超过20MB
+**Q: Audio upload fails?**
+A: Check audio file format (supports .m4a, .wav), ensure file size doesn't exceed 20MB
 
-**Q: 模型预测错误？**
-A: 确认模型文件在 `python_api/models/` 目录下，重新训练模型如有必要
+**Q: Model prediction errors?**
+A: Confirm model files are in `python_api/models/` directory, retrain model if necessary
 
-**Q: 页面样式异常？**
-A: 清除浏览器缓存，确认Tailwind CSS正确加载
+**Q: Page styling issues?**
+A: Clear browser cache, ensure Tailwind CSS loads correctly
 
-### 📞 技术支持
+### 📞 Technical Support
 
-如遇到问题，请检查：
-1. 控制台错误信息
-2. 网络连接状态
-3. 服务端口占用情况
-4. 依赖包版本兼容性
-
----
-
-## 🤝 贡献指南
-
-欢迎提交Issue和Pull Request来帮助改进PetLingo！
-
-## 📄 许可证
-
-MIT License - 详见 [LICENSE](LICENSE) 文件
+If you encounter issues, please check:
+1. Console error messages
+2. Network connection status
+3. Service port usage
+4. Dependency package version compatibility
 
 ---
 
-**让我们一起构建一个更懂宠物的世界！** 🐾❤️
+## 🤝 Contributing
+
+Welcome to submit Issues and Pull Requests to help improve PetLingo!
+
+## 📄 License
+
+MIT License - See [LICENSE](LICENSE) file for details
+
+---
+
+**Let's build a world that better understands pets together!** 🐾❤️
